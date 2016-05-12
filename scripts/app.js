@@ -1,7 +1,6 @@
 angular.module('ToDoList', [])
-.controller('mainCtrl', function($scope, dataService) {
-	$scope.helloConsole = dataService.helloConsole;
-	$scope.learningNgChange = function(){
+.controller('mainCtrl', function($scope) {
+	$scope.helloWorld = function(){
 		console.log("Hello there!");
 	};
 
