@@ -1,4 +1,6 @@
 [
 		{"name" : "clean the house"},
-		{"name" : "run"}
+		{"name" : "run"},
+		{"name" : "feed the dog"},
+		{"name" : "go shopping"}
 ]
