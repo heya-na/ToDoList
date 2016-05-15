@@ -1,0 +1,4 @@
+.list .completed label{
+	color: #555;
+	text-decoration: line-through;
+}
