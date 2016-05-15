@@ -3,7 +3,7 @@ angular.module('ToDoList')
 .controller('mainCtrl', function($scope, dataService) {
 	$scope.addTodo = function(){
 		var todo = {name: "This is a new todo."};
-		$scope.todos.push(todo);
+		$scope.todos.unshift(todo);
 	};
 
 	$scope.helloConsole = dataService.helloConsole;
