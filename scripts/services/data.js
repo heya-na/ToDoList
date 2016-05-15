@@ -1,4 +1,5 @@
-angular.module('ToDoList', [])
+'use strict';
+angular.module('ToDoList')
 .service('dataService', function($http){
 	this.helloConsole = function(){
 		console.log('Hello console');
