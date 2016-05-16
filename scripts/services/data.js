@@ -1,10 +1,6 @@
 'use strict';
 angular.module('ToDoList')
 .service('dataService', function($http){
-	this.helloConsole = function(){
-		console.log('Hello console');
-	};
-
 	this.getTodos = function(callback){
 		$http.get('mock/todos.json')
 		.then(callback);

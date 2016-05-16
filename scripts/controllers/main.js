@@ -5,8 +5,7 @@ angular.module('ToDoList')
 		var todo = {name: "This is a new todo."};
 		$scope.todos.unshift(todo);
 	};
-
-	$scope.helloConsole = dataService.helloConsole;
+	
 	dataService.getTodos(function(response){
 		console.log(response.data);
 		$scope.todos = response.data;
